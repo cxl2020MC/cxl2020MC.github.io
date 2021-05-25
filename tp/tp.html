@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+  <meta charset="UTF-8">
+  <title>正在跳转中</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+    }
+    .box {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .number {
+      font-size: 80px;
+      color: #666;
+      font-weight: bold;
+    }
+    .text {
+      font-size: 14px;
+      margin: 24px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+	<div class="box">
+		<div class="number">正在跳转中......</div>
+		<div class="text">请稍后......</div>
+	</div>
+	<Script language="javascript">
+		function GetRequest() {
+		var url = location.search; //获取url中"?"符后的字串
+		var theRequest = new Object();
+		if (url.indexOf("?") != -1) {
+		var str = url.substr(1);
+		strs = str.split("&");
+		for(var i = 0; i < strs.length; i ++) {
+		theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+		}
+		}
+		return theRequest;
+		}
+	</Script>
+	<Script language="javascript">
+		var Request = new Object();
+		Request = GetRequest();
+		window.location.href = Request['url'];//获取该地址并 跳转
+	</Script>
+</body>

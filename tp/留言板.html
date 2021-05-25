@@ -1,0 +1,16 @@
+<head>
+  ..
+  <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+  ...
+</head>
+<body>
+  ...
+  <div id="waline"></div>
+  <script>
+    new Waline({
+      el: '#waline',
+      path: location.pathname,
+      serverURL: 'https://cxl-blog.vercel.app'
+    });
+  </script>
+</body>

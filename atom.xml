@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.cxl2020mc.top</id>
+    <title>陈鑫磊的博客</title>
+    <updated>2021-05-25T04:43:47.022Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.cxl2020mc.top"/>
+    <link rel="self" href="https://www.cxl2020mc.top/atom.xml"/>
+    <subtitle>陈鑫磊的博客</subtitle>
+    <logo>https://www.cxl2020mc.top/images/avatar.png</logo>
+    <icon>https://www.cxl2020mc.top/favicon.ico</icon>
+    <rights>All rights reserved 2021, 陈鑫磊的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub访问加速]]></title>
+        <id>https://www.cxl2020mc.top/post/github-fang-wen-jia-su/</id>
+        <link href="https://www.cxl2020mc.top/post/github-fang-wen-jia-su/">
+        </link>
+        <updated>2021-05-16T01:10:54.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516092038.gif" alt="" loading="lazy"><br>
+我最近发现了一个项目<a href="https://github.com/521xueweihan/GitHub520">GitHub520</a><br>
+本质是通过修改 hosts 来实现的。该项目的作者为大家提供了一份完整的 hosts 列表，数据每小时都会更新。<br>
+作者还提供了定时自动更新 hosts 内容的教程，使用 <a href="https://github.com/oldj/SwitchHosts">SwitchHosts</a> 工具。配置一次，就不用管了<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516092807.png" alt="" loading="lazy"></p>
+<h2 id="由于系统的限制要先修改hosts的使用权限">由于系统的限制，要先修改hosts的使用权限。</h2>
+<p>点击右上角的设置<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093336.png" alt="" loading="lazy"><br>
+点击选项<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093515.png" alt="" loading="lazy"><br>
+点击右上角的高级<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093552.png" alt="" loading="lazy"><br>
+点一下这一串地址：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093701.png" alt="" loading="lazy"><br>
+会打开一个文件夹<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093803.png" alt="" loading="lazy"><br>
+选择hosts文件<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516093850.png" alt="" loading="lazy"><br>
+右键他选择属性<br>
+太快了截屏截不到<br>
+就会弹出这个窗口<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094245.png" alt="" loading="lazy"><br>
+点击安全<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094405.png" alt="" loading="lazy"><br>
+点击编辑<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094501.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094600.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094637.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094725.png" alt="" loading="lazy"><br>
+这样就配置好了</p>
+<h2 id="配置自动刷新">配置自动刷新</h2>
+<p>点击左上角的+号<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516094849.png" alt="" loading="lazy"><br>
+点击远程<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095002.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095111.png" alt="" loading="lazy"><br>
+标题随便填，看个人喜好<br>
+URL填<code>https://raw.fastgit.org/521xueweihan/GitHub520/main/hosts</code>或<code>https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts</code><br>
+看访问速度，推荐：<code>https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts</code><br>
+自动刷新建议填1小时<br>
+创建好了刷新一下<br>
+鼠标放在如图所示的地方会出现按钮按他<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095702.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095729.png" alt="" loading="lazy"><br>
+点击刷新按钮<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095757.png" alt="" loading="lazy"><br>
+等待他显示ok<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210516095852.png" alt="" loading="lazy"><br>
+这样就好了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[好网站推荐]]></title>
+        <id>https://www.cxl2020mc.top/post/hao-wang-zhan-tui-jian/</id>
+        <link href="https://www.cxl2020mc.top/post/hao-wang-zhan-tui-jian/">
+        </link>
+        <updated>2021-05-09T10:36:36.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://stats.uptimerobot.com/8WJ06FjNZg">状态统计</a><br>
+<a href="/atom.xml">RSS</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[友链交换注意事项（申请必看）]]></title>
+        <id>https://www.cxl2020mc.top/post/you-lian-jiao-huan-zhu-yi-shi-xiang/</id>
+        <link href="https://www.cxl2020mc.top/post/you-lian-jiao-huan-zhu-yi-shi-xiang/">
+        </link>
+        <updated>2021-04-18T01:45:44.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="规则">规则👇</h2>
+<ol>
+<li>要申请友链请按格式填好。（在友链界面的评论区，参考我的）</li>
+<li>如您已移除本站链接，本站也将移除友链。</li>
+<li>最终解释权归本站所有所有。</li>
+</ol>
+<h3 id="内容要求">内容要求</h3>
+<ol>
+<li>不能含有违反中国大陆和香港法律的内容</li>
+<li>不应含有较多广告及恶意脚本</li>
+<li>至少有 3 篇原创文章</li>
+<li>转载文章须注明出处</li>
+</ol>
+<p>公告：</p>
+<ol>
+<li>暂无<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504183223.gif" alt="" loading="lazy"><br>
+努力编辑中。。。。。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站镜像地址]]></title>
+        <id>https://www.cxl2020mc.top/post/wang-zhan-jing-xiang-di-zhi/</id>
+        <link href="https://www.cxl2020mc.top/post/wang-zhan-jing-xiang-di-zhi/">
+        </link>
+        <updated>2021-03-27T12:25:55.000Z</updated>
+        <content type="html"><![CDATA[<p>为了预防数据丢失，本站使用镜像</p>
+<!-- [https://cxl2020mc.herokuapp.com](https://file-cxl2020mc.herokuapp.com) -->
+<p><a href="https://cxl2020mc.github.io">https://cxl2020mc.github.io</a><br>
+<a href="https://cxl2020mc.pages.dev">https://cxl2020mc.pages.dev</a><br>
+<a href="https://cxl2020mc.netlify.app/">https://cxl2020mc.netlify.app</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基于Gridea+Github+vercel/Github搭建博客]]></title>
+        <id>https://www.cxl2020mc.top/post/ji-yu-grideagithubvercelgithub-da-jian-bo-ke/</id>
+        <link href="https://www.cxl2020mc.top/post/ji-yu-grideagithubvercelgithub-da-jian-bo-ke/">
+        </link>
+        <updated>2021-03-07T08:03:11.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="材料">材料</h1>
+<ol>
+<li>一台不卡的电脑</li>
+<li>一个好的网络</li>
+<li>一个安静的地方</li>
+</ol>
+<h1 id="下载gridea">下载Gridea</h1>
+<p><a href="https://gridea.dev/#started">戳这里下载Gridea</a><br>
+你会看到这个</p>
+<p>请使用国内下载源不然会很慢<br>
+然后安装Gridea</p>
+<h1 id="github搭配翻译软件使用更佳">Github（搭配翻译软件使用更佳）</h1>
+<p>打开<a href="https://github.com">Github</a><br>
+<mark>自己创建或登录 <a href="https://github.com">Github</a>b 账号，并创建一个仓库 Token。</mark> 点击<a href="https://github.com">Github</a>，进行注册。登录 GitHub 之后，点击这里创建一个 <a href="https://github.com/settings/tokens/new">Token</a>，勾选上 <mark>repo</mark> 的相关权限即可。生成之后记得把 Token 复制到你的本地，因为一旦关闭网页将不能再看到它。</p>
+<blockquote>
+<p>由于网络不好不能现场截图，借用一下官网图片</p>
+</blockquote>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504194524.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504194645.png" alt="" loading="lazy"><br>
+创建仓库，存放构建后的网站文件。创建一个公开仓库，名为：你的用户名.github.io。（将你的用户名替换为你的 GitHub 用户名）</p>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504194707.png" alt="" loading="lazy"><br>
+最好打开仓库设置，看看GitHub Pages开了没有</p>
+<h1 id="配置">配置</h1>
+<p>进入 Gridea 进行远程设置。按照下图的示例进行设置，然后点击「检测远程链接」，进行配置检查。</p>
+<blockquote>
+<p>记得填邮箱</p>
+</blockquote>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504194903.png" alt="" loading="lazy"><br>
+CNAME暂时不写,除非你有域名</p>
+<p>同步。点击 Gridea 中的 同步按钮即可。初次部署等待几分钟之后就可以去浏览器访问了，默认地址为你在第 3 步所填写的域名。</p>
+<h1 id="加速访问vercel">加速访问（vercel）</h1>
+<p>但是用github访问太慢了我们可以免费使用vercel加速·<br>
+<a href="https://vercel.com">戳这里打开官网</a><br>
+进入官网,点击右上角的 <mark>sogin</mark> 使用<mark>Github登录</mark><br>
+你将会看到：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504194946.png" alt="" loading="lazy"><br>
+点击new project创建网站<br>
+你会看到：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195056.png" alt="" loading="lazy"><br>
+看Import Git Repository那个框，如果没有东西可能要安装github的vercel的app<br>
+点击你刚刚创建的仓库名旁边的import<br>
+你会看到:<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195138.png" alt="" loading="lazy"><br>
+点击你的用户名旁边的select，就会看到：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195358.png" alt="" loading="lazy"><br>
+点击continue，就会看到：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195556.png" alt="" loading="lazy"></p>
+<p>注意填写：PROJECT NAME 他是你的网站链接的一部分<br>
+点击右下角的<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195611.png" alt="" loading="lazy"><br>
+开始部署：<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195723.png" alt="" loading="lazy"><br>
+完成后会有满屏礼炮庆祝<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195737.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195750.png" alt="" loading="lazy"><br>
+点击visit访问你的网站<br>
+就OK了</p>
+<h1 id="主题安装">主题安装</h1>
+<p>如果你不满意现在的主题，可以去<a href="https://gridea.dev/themes/">主题商店</a>下载主题，我现在用的<a href="https://github.com/850552586/gridea-theme-fog">fog</a>。<br>
+选择你心仪的主题后点击下载图标，大部分的主题会跳转到github进行下载<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195816.png" alt="" loading="lazy"><br>
+点击download zip下载源码压缩包（一般都是OK的）<br>
+正常情况下在压缩包根目录，但有些会在你的主题名字的文件夹里<br>
+解压压缩包，把主题文件夹复制到文档里面的Gridea文件夹中的themes文件夹<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504195949.png" alt="" loading="lazy"><br>
+打开Gridea打开主题选择主题<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200026.png" alt="" loading="lazy"><br>
+记得保存了在退出</p>
+<h2 id="设置主题在刚刚那里点击主题设置修改设置记得保存在退出如果搞砸了点击左下角的小箭头重弄">设置主题在刚刚那里点击主题设置修改设置，记得保存在退出，如果搞砸了点击左下角的小箭头重弄</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown语法]]></title>
+        <id>https://www.cxl2020mc.top/post/markdown-yu-fa/</id>
+        <link href="https://www.cxl2020mc.top/post/markdown-yu-fa/">
+        </link>
+        <updated>2021-02-07T12:28:26.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="关于markdown来自百度百科">关于Markdown（来自百度百科）</h2>
+<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。<br>
+由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如GitHub、Reddit、Diaspora、Stack Exchange、OpenStreetMap 、SourceForge、简书等，甚至还能被使用来撰写电子书。</p>
+<h2 id="编辑器推荐">编辑器推荐</h2>
+<p><a href="https://www.typora.io/">Typora</a><br>
+<a href="https://www.typora.io/#download">下载地址</a><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200146.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200200.gif" alt="" loading="lazy"></p>
+<h2 id="语法">语法</h2>
+<h3 id="标题最多6级">标题（最多6级）</h3>
+<p>注意：#和标题要间隔一空格</p>
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题 
+</code></pre>
+<h3 id="文字样式">文字样式</h3>
+<pre><code>*斜体*
+**加粗**
+***斜体加粗***
+~~删除线~~
+==高亮==
+</code></pre>
+<p><em>斜体</em><br>
+<strong>加粗</strong><br>
+<em><strong>斜体加粗</strong></em><br>
+<s>删除线</s><br>
+<mark>高亮</mark></p>
+<h3 id="引用">引用</h3>
+<pre><code>&gt;这是引用
+&gt;&gt;这是引用
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这还是引用
+</code></pre>
+<p>效果</p>
+<blockquote>
+<p>这是引用</p>
+<blockquote>
+<p>这是引用</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>这还是引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="分割线">分割线</h3>
+<p>三个或者三个以上的 - 或者 * 都可以。</p>
+<pre><code>---
+----
+***
+*****
+</code></pre>
+<hr>
+<hr>
+<hr>
+<hr>
+<h3 id="插入图片和链接">插入图片和链接</h3>
+<h4 id="图片">图片</h4>
+<pre><code>![图片alt](图片网址URL ''图片title'')
+
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。但是本博客没有，可加可不加
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
+</code></pre>
+<p>示例:</p>
+<pre><code>![xxx](https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200230.jpeg &quot;一张图片&quot;)
+注意图片链接后面有空格
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200230.jpeg" alt="xxx" title="一张图片" loading="lazy"></figure>
+<h4 id="链接">链接</h4>
+<pre><code>[链接上的文字](网址URL)
+</code></pre>
+<p>示例：</p>
+<pre><code>[欢迎来到陈鑫磊的博客━(*｀∀´*)ノ亻!](https://cxl2020mc.github.io)
+</code></pre>
+<p><a href="https://cxl2020mc.github.io">欢迎来到陈鑫磊的博客━(<em>｀∀´</em>)ノ亻!</a><br>
+但是Markdown有个缺点就是Markdown原始跳转链接不会新建标签页<br>
+所以我们要使用Html解决。<br>
+示例：</p>
+<pre><code>&lt;a href=&quot;https://cxl2020mc.github.io&quot; target=&quot;_blank&quot;&gt;欢迎来到陈鑫磊的博客━(*｀∀´*)ノ亻!&lt;/a&gt;
+</code></pre>
+<p>效果：<a href="https://cxl2020mc.github.io" target="_blank">欢迎来到陈鑫磊的博客━(<em>｀∀´</em>)ノ亻!</a></p>
+<h3 id="列表">列表</h3>
+<p>列表分无序列表,有序列表和待办列表</p>
+<h4 id="无序列表">无序列表</h4>
+<p>无序列表用 - + * 任何一种都可以</p>
+<pre><code>- 列表1
++ 列表2
+* 列表3
+
+注意：- + * 跟内容之间都要有一个空格
+</code></pre>
+<p>效果如下</p>
+<ul>
+<li>列表1</li>
+</ul>
+<ul>
+<li>列表2</li>
+</ul>
+<ul>
+<li>列表3<br>
+如果你多用了几个空格</li>
+</ul>
+<pre><code>-     列表1
++     列表2
+*     列表3
+</code></pre>
+<p>效果如下</p>
+<ul>
+<li>
+<pre><code>列表1
+</code></pre>
+</li>
+</ul>
+<ul>
+<li>
+<pre><code>列表2
+</code></pre>
+</li>
+</ul>
+<ul>
+<li>
+<pre><code>列表3
+</code></pre>
+</li>
+</ul>
+<h4 id="有序列表">有序列表</h4>
+<p>数字加点</p>
+<pre><code>1. 列表内容
+2. 列表内容
+3. 列表内容
+
+注意：序号跟内容之间要有空格
+</code></pre>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容<br>
+数字是可以打乱的，生成会自动排序</li>
+</ol>
+<h4 id="代办列表">代办列表</h4>
+<pre><code>- [ ] 内容
+- [x] 内容
+</code></pre>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2563340"><label class="task-list-item-label" for="task-item-2563340"> 内容</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9154332"><label class="task-list-item-label" for="task-item-9154332"> 内容</label></li>
+</ul>
+<h4 id="列表嵌套">列表嵌套</h4>
+<p>上一级和下一级之间敲三个空格即可</p>
+<h2 id="表格">表格</h2>
+<pre><code>表头|表头|表头
+|---|:--:|---:|
+|内容|内容|内容|
+|内容|内容|内容|
+
+第二行分割表头和内容。
+- 有一个就行，为了看着舒服，多加了几个。
+文字默认居左。
+-两边加：表示文字居中
+-右边加：表示文字居右
+</code></pre>
+<p>示例：</p>
+<pre><code>博客网站
+|名称|网址|xxx|
+|--|:--:|--:|
+|陈鑫磊的博客|https://cxl2020mc.github.io|xxx|
+|高浩轩|https://hkjyh5.coding-pages.com/|xxx|
+</code></pre>
+<p>博客网站</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th style="text-align:center">网址</th>
+<th style="text-align:right">xxx</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>陈鑫磊的博客</td>
+<td style="text-align:center">https://cxl2020mc.github.io</td>
+<td style="text-align:right">xxx</td>
+</tr>
+<tr>
+<td>高浩轩</td>
+<td style="text-align:center">https://hkjyh5.coding-pages.com/</td>
+<td style="text-align:right">xxx</td>
+</tr>
+</tbody>
+</table>
+<h2 id="代码">代码</h2>
+<h3 id="单行代码代码用一个反引号包起来">单行代码：代码用一个反引号包起来</h3>
+<pre><code>    `代码内容`
+</code></pre>
+<p>代码块：代码用三个反引号包起来，且两边的反引号单独占一行</p>
+<pre><code>(```)  注：这里可以在加编程语言如：java
+  代码...
+  代码...
+  代码...
+(```)
+</code></pre>
+<p>注：为了防止转译，前后三个反引号处加了小括号。</p>
+<h2 id="缩略">缩略</h2>
+<p>缩略有2种一种可以使用Markdown，HTML，一种不可以但是支持HTML</p>
+<h3 id="可以使用markdownhtml">可以使用Markdown，HTML</h3>
+<pre><code>&lt;details&gt;
+&lt;summary&gt;文字&lt;/summary&gt;
+
+内容
+
+&lt;/details&gt;
+</code></pre>
+<p>效果</p>
+<details>
+<summary>文字</summary>
+<p>内容</p>
+</details>
+<p>内容</p>
+</details>
+<h3 id="不可以使用markdown支持html">不可以使用Markdown，支持HTML</h3>
+<pre><code>&lt;details&gt;
+&lt;summary&gt;文字&lt;/summary&gt;
+&lt;pre&gt;
+&lt;ul&gt;
+
+内容
+
+&lt;/ul&gt;
+&lt;/pre&gt;
+&lt;/details&gt;
+
+</code></pre>
+<p>效果</p>
+<details>
+<summary>文字</summary>
+<pre>
+<ul>
+<p>内容</p>
+</ul>
+</pre>
+</details>
+<h2 id="网页编辑器">网页编辑器</h2>
+<p>Editor.md<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200444.png" alt="" loading="lazy"><br>
+<a href="/tp/md">本站</a><br>
+<a href="http://editor.md.ipandao.com/">官方</a></p>
+<link rel="stylesheet" href="https://editor-md.vercel.app/css/editormd.css" />
+<div id="test-editor">
+    <textarea style="display:none;">### 关于 Editor.md
+<p><strong>Editor.md</strong> 是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。<br>
+</textarea></p>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://editor-md.vercel.app/editormd.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("test-editor", {
+            // width  : "100%",
+            // height : "100%",
+            path   : "https://editor-md.vercel.app/lib/"
+        });
+    });
+</script>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网易云音乐音乐下载器]]></title>
+        <id>https://www.cxl2020mc.top/post/wang-yi-yun-yin-le-yin-le-xia-zai-qi/</id>
+        <link href="https://www.cxl2020mc.top/post/wang-yi-yun-yin-le-yin-le-xia-zai-qi/">
+        </link>
+        <updated>2021-02-06T11:00:45.000Z</updated>
+        <content type="html"><![CDATA[<p>代码小白，多多关注<br>
+<a href="https://gitee.com/cxl2020/music-163-download/repository/archive/master.zip">exe文件下载地址</a><br>
+<a href="https://gitee.com/cxl2020/music-163-download">仓库地址,什么都没有</a><br>
+使用方法<br>
+在文件根目录创建music文件夹，歌曲保存在里面</p>
+<pre><code class="language-python">#coding = gbk
+import requests
+from urllib.request import quote
+from fake_useragent import UserAgent
+import io
+import sys
+ua = UserAgent()
+user=ua.chrome
+print(&quot;当前UA：&quot;+user)
+headers = {&quot;User-Agent&quot;:user}
+
+#用户输入
+MusicName=input(&quot;请输入歌曲名称：&quot;)
+print(&quot;正在搜索&quot;+MusicName)
+# 进行拼音转换
+#ret2 = quote(MusicName, encoding=&quot;gbk&quot;)
+ret2 = quote(MusicName.encode('utf-8'))
+#ret2 = quote(MusicName.encode('utf-8'), encoding=&quot;gbk&quot;)
+
+print(ret2)
+
+#歌曲搜索功能
+url = 'https://v1.hitokoto.cn/nm/search/'+ret2+&quot;?limit=1&quot;
+#url = &quot;http://music.163.com/api/search/pc?s=&quot;+ret2+&quot;limit=1&quot;
+apiget = requests.get(url, allow_redirects=True)
+apiget.encoding = 'utf-8'
+apidata = apiget.json()
+print(apidata)
+
+
+#解析id
+if apiget.status_code == 200:
+    #id=apidata['result']['songs'][0]['artists'][0]['id']
+    id=apidata['result']['songs'][0]['id']
+    print(id)
+    #下载
+    url=&quot;http://music.163.com/song/media/outer/url?id=&quot;+str(id)+&quot;.mp3&quot;
+    r = requests.get(url,headers=headers)
+    
+    reditList = r.history#可以看出获取的是一个地址序列
+    print(f'获取重定向最终的url：{reditList[len(reditList)-1].headers[&quot;location&quot;]}')
+    #with open(&quot;music\\&quot;+str(id)+&quot;.mp3&quot;, &quot;wb&quot;) as code:
+    with open(&quot;music\\&quot;+MusicName+&quot;.mp3&quot;, &quot;wb&quot;) as code:
+        code.write(r.content)
+    print(&quot;下载成功&quot;)
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200650.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全能下载器motrix]]></title>
+        <id>https://www.cxl2020mc.top/post/quan-neng-xia-zai-qi-motrix/</id>
+        <link href="https://www.cxl2020mc.top/post/quan-neng-xia-zai-qi-motrix/">
+        </link>
+        <updated>2021-02-05T09:44:54.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210522165435.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200903.png" alt="" loading="lazy"><br>
+motrix支持下载 HTTP、FTP、BT、磁力链等资源<br>
+支持Windows、Linux、MacOS系统。<br>
+单任务最高支持 64 线程下载（超快）。<br>
+一般浏览器下不动的东西他都能下。<br>
+官网地址：<a href="https://motrix.app/zh-CN">https://motrix.app/zh-CN</a><br>
+由于官网下载过慢，所以可以使用云盘的离线下载功能加速下载。<br>
+但是下载下来需要设置一下</p>
+<blockquote>
+<p>最新版不用修改</p>
+</blockquote>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504200948.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201009.png" alt="" loading="lazy"><br>
+才能达到最大速度</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决我的博客访问慢的问题]]></title>
+        <id>https://www.cxl2020mc.top/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-wen-ti/</id>
+        <link href="https://www.cxl2020mc.top/post/jie-jue-wo-de-bo-ke-fang-wen-man-de-wen-ti/">
+        </link>
+        <updated>2021-02-05T09:24:06.000Z</updated>
+        <content type="html"><![CDATA[<p>本人已经尽力对网站进行加速，但是因为我的使用的建站工具是外国网站，访问比较慢，所以要想加速，就挂V.P.N（也叫科.学.上.网.工具）<br>
+请忽略掉V.P.N中的点<br>
+这里推荐一款V.P.N：setupV.P.N<br>
+https://base1-sv.diltwo.com//public/Chrome/Chrome-SetupVPN-3.8.8.crx<br>
+安装时注意：请用谷歌开发者模式安装！！！<br>
+安装好后，请选择美国通道（理论是所有节点最快的）用不了就用英国通道<br>
+你也可以拿它看油。。。。。。管。。。。。。有点慢<br>
+注册登录谷歌这类的事情</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[U-NAS安装记录]]></title>
+        <id>https://www.cxl2020mc.top/post/u-nas-an-zhuang-ji-lu/</id>
+        <link href="https://www.cxl2020mc.top/post/u-nas-an-zhuang-ji-lu/">
+        </link>
+        <updated>2021-02-05T09:05:31.000Z</updated>
+        <content type="html"><![CDATA[<p>本人用过黑群晖，但是实在是太难安装了，一不小心黑群晖就没了<br>
+U-NAS下载非常慢，这里给个<a href="https://www.u-nas.cn/download/U-NAS_4.0.6_X86-64_ZH_DVD_build202003062.iso">下载地址</a><br>
+可以用迅雷加速下载，或者air2加速下载<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201137.png" alt="" loading="lazy"><br>
+但是最快也没有多快</p>
+<h2 id="安装记录">安装记录</h2>
+<p>全自动安装<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201150.png" alt="" loading="lazy"><br>
+安装好后会显示ip<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201203.png" alt="" loading="lazy"><br>
+打开浏览器输入ip<br>
+就可以打开登录界面<br>
+默认账户：admin<br>
+默认密码：password</p>
+<details>
+<summary>瞎整记录</summary>
+<p>装个宝塔面板玩完<br>
+系统为debian<br>
+没有用过但是用过ubuntu<br>
+我尝试安装宝塔，但是显示权限不够<br>
+我就尝试su root竟然可以<br>
+我去网上搜了密码<br>
+密码是：yutech<br>
+安装太慢了先安装了小皮面板<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201240.png" alt="" loading="lazy"><br>
+装好了<br>
+宝塔安装过程中卡了<br>
+还是得等</p>
+</details>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[百度网盘免费加速到10MB/S]]></title>
+        <id>https://www.cxl2020mc.top/post/bai-du-wang-pan-mian-fei-jia-su-dao-1mbs/</id>
+        <link href="https://www.cxl2020mc.top/post/bai-du-wang-pan-mian-fei-jia-su-dao-1mbs/">
+        </link>
+        <updated>2021-02-05T08:22:54.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="大家有没有想过有一天百度网盘免费加速-现在他来了">大家有没有想过有一天百度网盘免费加速。现在他来了</h2>
+<figure data-type="image" tabindex="1"><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201317.png" alt="" loading="lazy"></figure>
+<h2 id="需要材料">需要材料</h2>
+<ol>
+<li>一个不卡装了百度网盘最新版的电脑</li>
+<li>一个稳定良好的网络</li>
+<li>一个大的要用百度网盘下的东西</li>
+</ol>
+<h2 id="使用限制">使用限制</h2>
+<ol>
+<li>大的单个文件，小的多个文件不行（不过小的文件下什么）</li>
+</ol>
+<h2 id="教程">教程</h2>
+<p>首先打开百度网盘的设置<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201407.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201441.png" alt="" loading="lazy"><br>
+点击传输<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201608.png" alt="" loading="lazy"><br>
+点击去开启<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201652.png" alt="" loading="lazy"><br>
+同意用户协议并开启<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201734.png" alt="" loading="lazy"><br>
+确认是否为下载提速<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201817.png" alt="" loading="lazy"><br>
+保存退出<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201906.png" alt="" loading="lazy"></p>
+<h2 id="可以下载了">可以下载了</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HD超高清必应壁纸下载代码]]></title>
+        <id>https://www.cxl2020mc.top/post/hd-chao-gao-qing-bi-ying-bi-zhi-xia-zai-dai-ma/</id>
+        <link href="https://www.cxl2020mc.top/post/hd-chao-gao-qing-bi-ying-bi-zhi-xia-zai-dai-ma/">
+        </link>
+        <updated>2021-02-03T11:17:23.000Z</updated>
+        <content type="html"><![CDATA[<p>代码小白多多关照<br>
+分辨率不定<br>
+<a href="https://github.com/cxl2020MC/bing-HD-image-download">github仓库地址</a><br>
+<a href="https://github.com/cxl2020MC/bing-HD-image-download/archive/main.zip">python源码下载地址</a><br>
+<a href="https://hub.fastgit.org/cxl2020MC/bing-HD-image-download/archive/main.zip">python源码加速下载地址</a><br>
+<a href="https://github.com/cxl2020MC/bing-HD-image-download/releases/">打包exe文件下载地址</a><br>
+<a href="https://github.com.cnpmjs.org/cxl2020MC/bing-HD-image-download/releases/">打包exe文件加速下载地址</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本站可在各大搜索引擎搜索]]></title>
+        <id>https://www.cxl2020mc.top/post/ben-zhan-ke-zai-ge-da-sou-suo-yin-qing-sou-suo/</id>
+        <link href="https://www.cxl2020mc.top/post/ben-zhan-ke-zai-ge-da-sou-suo-yin-qing-sou-suo/">
+        </link>
+        <updated>2021-02-03T08:50:41.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="本站可在必应百度谷歌搜索">本站可在必应，百度，谷歌搜索</h2>
+<h3 id="必应">必应</h3>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201936.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504201954.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504202020.png" alt="" loading="lazy"><br>
+<a href="https://cn.bing.com/search?q=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2&amp;go=%E6%8F%90%E4%BA%A4&amp;qs=ds&amp;FORM=BESBTB">必应搜索URL</a><br>
+相信会有很多人好奇我文章图片为什么会是必应，因为他是第2个上的，而且是国内第一个上的。</p>
+<h3 id="谷歌">谷歌</h3>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504202036.jpeg" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504202125.png" alt="" loading="lazy"><br>
+<a href="https://www.google.com/search?sxsrf=ALeKk02QY38xUg7I8Rlvxg1uZ8SukOPIHQ%3A1612343040054&amp;ei=AGcaYJDjAvTy9AOukY7oCw&amp;q=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2%28gridea%29&amp;oq=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2&amp;gs_lcp=CgZwc3ktYWIQARgBMgQIIxAnMgQIIxAnUABYAGCpE2gAcAB4AIAB4gSIAasJkgEDNS0ymAEAqgEHZ3dzLXdpesABAQ&amp;sclient=psy-ab">谷歌搜索URL</a><br>
+<a href="https://www.google.com.hk/search?safe=strict&amp;hl=zh-CN&amp;source=hp&amp;ei=LqIaYLWnCqHI0PEPwf2oqAo&amp;q=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2&amp;oq=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2&amp;gs_lcp=CgZwc3ktYWIQAzoCCABQiCFY8D5gzEtoAXAAeAGAAZwNiAGjOZIBDzItMS4xLjEuMi4xLjEuMpgBAKABAaoBB2d3cy13aXqwAQA&amp;sclient=psy-ab&amp;ved=0ahUKEwi19rOp5s3uAhUhJDQIHcE-CqUQ4dUDCAc&amp;uact=5">谷歌国内搜索URL</a></p>
+<h3 id="百度">百度</h3>
+<p><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504202207.jpeg" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504202218.png" alt="" loading="lazy"><br>
+<a href="https://www.baidu.com/s?tn=02003390_42_hao_pg&amp;ie=utf-8&amp;wd=%E9%99%88%E9%91%AB%E7%A3%8A%E7%9A%84%E5%8D%9A%E5%AE%A2">百度搜索URL</a></p>
+<p><span id="hitokoto">: )正在加载....</span></p>
+<!-- 新 API 方法， 十分简洁 -->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[评论守则]]></title>
+        <id>https://www.cxl2020mc.top/post/ping-lun-shou-ze/</id>
+        <link href="https://www.cxl2020mc.top/post/ping-lun-shou-ze/">
+        </link>
+        <updated>2021-01-30T06:08:15.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>
+<pre><code>本站倡导文明评论
+</code></pre>
+</li>
+<li>
+<pre><code>本站会对涉及色情，敏感词汇的评论进行删除处理
+</code></pre>
+</li>
+<li>
+<pre><code>当垃圾评论过多时我们会启用严格的垃圾评论检测
+</code></pre>
+</li>
+<li>
+<pre><code>本站不会随意删除，修改用户评论
+</code></pre>
+</li>
+</ul>
+<p><span id="hitokoto">: )正在加载....</span></p>
+<!-- 新 API 方法， 十分简洁 -->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免责声明]]></title>
+        <id>https://www.cxl2020mc.top/post/mian-ze-sheng-ming/</id>
+        <link href="https://www.cxl2020mc.top/post/mian-ze-sheng-ming/">
+        </link>
+        <updated>2021-01-30T02:30:35.000Z</updated>
+        <content type="html"><![CDATA[<details>
+<summary>本博客免责声明</summary>
+<pre>
+<ul>
+本站提供的教程等资源，不保证在生产环境中可成功使用，如未经测试直接应用于生产环境，造成任何损失与本站无关；
+本站部分资源来源网络，如因传播、转载、商业使用等导致的法律纠纷，与本站无关；
+本站提供非实名制评论功能，博主有权在未告知评论用户的前提下，修改、删除任何评论内容；
+最终解释权归本站所有。
+</ul>
+</pre>
+</details>
+<p><span id="hitokoto">: )正在加载....</span></p>
+<!-- 新 API 方法， 十分简洁 -->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天气助手]]></title>
+        <id>https://www.cxl2020mc.top/post/tian-qi-zhu-shou/</id>
+        <link href="https://www.cxl2020mc.top/post/tian-qi-zhu-shou/">
+        </link>
+        <updated>2021-01-15T12:03:15.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="我自己写了一个python程序名叫weather-helper天气助手">我自己写了一个Python程序，名叫weather-helper（天气助手）</h1>
+<h2 id="效果">效果</h2>
+<figure data-type="image" tabindex="1"><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503200907.png" alt="效果" loading="lazy"></figure>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://github.com/cxl2020MC/weather-helper">仓库地址</a><br>
+<a href="https://github.com/cxl2020MC/weather-helper">py文件下载地址</a><br>
+<a href="https://github.com/cxl2020MC/weather-helper/releases">直接运行下载地址</a><br>
+<a href="https://gitee.com/cxl2020/weather-helper/repository/archive/master.zip">直接运行gitee下载地址</a></p>
+<h2 id="使用方法">使用方法</h2>
+<h3 id="视频教程">视频教程</h3>
+<p><a href="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/%E5%A4%A9%E6%B0%94%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.mp4">视频地址</a><br>
+为了节省流量建议使用免费节点(没钱)</p>
+<!-- dplayer -->
+<div id="dplayer"></div>
+<!-- <script src="https://cxl2020mc.vercel.app/tp/js/DPlayer.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<!-- 视频 -->
+<script>
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    screenshot: true,
+    autoplay:true,
+    video: {
+        quality: [
+            {
+                name: '我的cos',
+                url: 'https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/%E5%A4%A9%E6%B0%94%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.mp4',
+            },
+            {
+                name: '免费节点',
+                url: 'https://file-cxl2020mc.herokuapp.com/OneDrive/video/%E5%A4%A9%E6%B0%94%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.mp4',
+            },
+            {
+                name: '免费节点2',
+                url: 'https://7.dusays.com/2021/05/09/29813678d42ab.mp4',
+            },
+        ],
+        defaultQuality: 1,
+    },
+});
+</script>
+<h3 id="获取apikey">获取apikey</h3>
+<p>先去<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>获取key<br>
+加这个qq：2323885379然后在<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>选中消息推送服务，在点击key复制他<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195821.png" alt="1" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195917.png" alt="2" loading="lazy"></p>
+<h3 id="编辑配置文件">编辑配置文件</h3>
+<p>打开配置文件.txt<br>
+第1行全清空粘贴刚刚复制的key<br>
+第2行全清空输入你所在的精确到区的地址（正常的直接单独写区就行了，有些要加上具体地址）<br>
+第3行写上要发送的QQ号，在去<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>点击QQ号，输入你的QQ号保存。<br>
+第4行写上整数（1和2）v2.0更新（用于切换一言api）</p>
+<blockquote>
+<p>注：api序号为1的api可能在最近下线</p>
+</blockquote>
+<p>第5行写上是否打开公告功能（y和Y和yes为打开，别的都是关）<br>
+第6行写上是否打开“半”自动更新功能（y和Y和yes为打开，别的都是关）</p>
+<!-- <span class="cxl-text" data-text='["欢迎使用天气助手(weather-helper)"]'>&nbsp;</span> -->
+<!-- <p id="my_string" hidden>欢迎使用天气助手(weather-helper)</p> -->
+<!-- <h1 class="typing typing-item">欢迎使用天气助手(weather-helper)</h1> -->
+<p>发现可以用中文变量名，到时候弄弄<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217102257.png" alt="" loading="lazy"></p>
+<details>
+<summary>错误处理</summary>
+<p>当你发现程序没有按你想像的流程运行时，8成是出错了。<br>
+打开你的程序所在文件夹<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217105305.png" alt="" loading="lazy"><br>
+点击空白箭头处<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217110154.png" alt="" loading="lazy"><br>
+删除所有内容<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217110326.png" alt="" loading="lazy"><br>
+输入cmd<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217110721.png" alt="" loading="lazy"><br>
+回车会出现一个黑乎乎的窗口<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217110834.png" alt="" loading="lazy"><br>
+输入cxl.exe<br>
+就会出现信息<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217111031.png" alt="" loading="lazy"><br>
+复制这串信息或截屏<br>
+cmd的选择是白色的，复制是ctrl+c<br>
+<img src="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210217113132.png" alt="" loading="lazy"><br>
+发送在评论区</p>
+</details>
+<h2 id="更新日志">更新日志</h2>
+<details>
+<summary>v1.0</summary>
+<pre>
+<ul>
+1.实现QQ发送天气信息
+2.实现获取天气信息
+<ul>
+</pre>
+</details>
+<details>
+<summary>v2.0</summary>
+<pre>
+<ul>
+1.实现1个数字切换一言api（再也不怕乱玩出问题了）
+50%的问题都是由这个导致的（DNS这类）
+</ul>
+</pre>
+</details>
+<details>
+<summary>v3.0</summary>
+<pre>
+<ul>
+1.实现风力发送
+</ul>
+</pre>
+</details>
+<details>
+<summary>v4.0</summary>
+<pre>
+<ul>
+1.实现公告功能
+</ul>
+</pre>
+</details>
+<details>
+<summary>v5.0</summary>
+<pre>
+<ul>
+1.实现"半"自动更新功能
+2.优化配置文件编辑
+</ul>
+</pre>
+</details>
+<details>
+<summary>v6.0</summary>
+<pre>
+<ul>
+1.优化更新功能，更改为2种模式
+2.更新公告系统
+</ul>
+</pre>
+</details>
+<details>
+<summary>准备实现</summary>
+<pre>
+<ul>
+1.实现未来天气发送
+2.让配置文件可以用注释
+3.让打印信息更清晰明了
+</ul>
+</pre>
+</details>
+<!-- 请注意，以下的示例包含超链接，您可能需要手动配置样式使其不变色。如果您嫌麻烦，可以移除。 -->
+<!-- <p id="hitokoto"></p> -->
+<!-- 以下写法，选取一种即可 -->
+<p><span id="hitokoto">: )正在加载....</span></p>
+<!-- 新 API 方法， 十分简洁 -->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[再见2020，你好2021！]]></title>
+        <id>https://www.cxl2020mc.top/post/zai-jian-2020ni-hao-2021/</id>
+        <link href="https://www.cxl2020mc.top/post/zai-jian-2020ni-hao-2021/">
+        </link>
+        <updated>2021-01-03T01:02:39.000Z</updated>
+        <content type="html"><![CDATA[<p>再见2020，你好2021！今天是2021的第三天</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[所有哔哩哔哩视频]]></title>
+        <id>https://www.cxl2020mc.top/post/suo-yi-bi-li-bi-li-shi-pin/</id>
+        <link href="https://www.cxl2020mc.top/post/suo-yi-bi-li-bi-li-shi-pin/">
+        </link>
+        <updated>2020-12-05T07:42:19.000Z</updated>
+        <content type="html"><![CDATA[<p>有时间才更新</p>
+<div class="tvcontainer">
+<iframe class="tv" src="//player.bilibili.com/player.html?aid=670532151&bvid=BV1Sa4y1W7tz&cid=263098656&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<div class="tvcontainer">
+<iframe class="tv" src="//player.bilibili.com/player.html?aid=670622012&bvid=BV1xa4y1H7vW&cid=263153550&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<p>下面是播放器代码</p>
+<pre><code>&lt;div class=&quot;tvcontainer&quot;&gt;
+&lt;iframe class=&quot;tv&quot; src=&quot;//player.bilibili.com/player.html?aid=670532151&amp;bvid=BV1Sa4y1W7tz&amp;cid=263098656&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[必应壁纸下载代码]]></title>
+        <id>https://www.cxl2020mc.top/post/bi-ying-bi-zhi-xia-zai-dai-ma/</id>
+        <link href="https://www.cxl2020mc.top/post/bi-ying-bi-zhi-xia-zai-dai-ma/">
+        </link>
+        <updated>2020-12-04T12:50:08.000Z</updated>
+        <content type="html"><![CDATA[<p>是网上搜的，经我修改过的python3.6<br>
+<a href="https://cxl2020mc.github.io/cxlblogxz.github.io/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%89%88.exe">多线程版下载地址</a><br>
+<a href="https://cxl2020mc.github.io/cxlblogxz.github.io/%E6%99%AE%E9%80%9A%E7%89%88.exe">普通版下载地址</a></p>
+<!-- [防封ip版下载地址](https://cxl2020mc.github.io/cxlblogxz.github.io/防封ip1.exe) -->
+<pre><code>import  re
+import os
+import requests
+from time import sleep
+
+headers = {
+    &quot;User-Agent&quot;: (&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) &quot;
+                   &quot;Gecko/20100101 Firefox/64.0&quot;)
+}
+
+def get_index(resolution, index=1):
+    url = f&quot;https://bing.ioliu.cn/ranking?p={index}&quot;
+    res = requests.get(url, headers=headers)
+    urls = re.findall('pic=(.*?)\\.jpg', res.text)
+    _old_resolution = urls[1].split(&quot;_&quot;)[-1]
+    return {url.split(&quot;/&quot;)[-1].replace(_old_resolution, resolution): url.replace(_old_resolution, resolution) + &quot;.jpg&quot;
+            for url in urls}
+
+def download_pic(pics):
+    if os.path.exists('必应壁纸'):
+        pass
+    else:
+        os.mkdir('必应壁纸')
+        print('目录创建成功')
+    try:
+        for pic_name, pic_url in pics.items():
+            res = requests.get(pic_url, headers=headers)
+            with open(f&quot;必应壁纸\\{pic_name}.jpg&quot;, mode=&quot;wb&quot;) as f:
+                f.write(res.content)
+            print(f&quot;{pic_name} 下载完成&quot;)
+    except Exception as e:
+        print(&quot;下载出错&quot;, e)
+
+def input_index():
+    while True:
+        sleep(0.1)
+        index = input(&quot;请输入要下载的页数:&quot;)
+        try:
+            if index == &quot;Q&quot;:
+                exit()
+            index = int(index)
+            return index
+        except ValueError:
+            print(&quot;请输入数字, 或输入Q退出!&quot;)
+
+def main():
+    index = input_index()
+    i = 1
+    while i &lt;= index:
+        print(f&quot;当前第{i}页,共需要下载{index}页&quot;)
+        pics = get_index(&quot;1920x1080&quot;, i)
+        download_pic(pics)
+        i += 1
+    print(&quot;下载完成,将在3秒后关闭...&quot;)
+    sleep(1)
+    print(&quot;2&quot;)
+    sleep(1)
+    print(&quot;1&quot;)
+    sleep(1)
+    print(&quot;0&quot;)
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+<p>2号防封ip</p>
+<pre><code>import  re
+import os
+import requests
+import time
+from time import sleep
+
+headers = {
+    &quot;User-Agent&quot;: (&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) &quot;
+                   &quot;Gecko/20100101 Firefox/64.0&quot;)
+}
+
+def get_index(resolution, index=1):
+    url = f&quot;https://bing.ioliu.cn/ranking?p={index}&quot;
+    res = requests.get(url, headers=headers)
+    urls = re.findall('pic=(.*?)\\.jpg', res.text)
+    _old_resolution = urls[1].split(&quot;_&quot;)[-1]
+    return {url.split(&quot;/&quot;)[-1].replace(_old_resolution, resolution): url.replace(_old_resolution, resolution) + &quot;.jpg&quot;
+            for url in urls}
+
+def download_pic(pics):
+    if os.path.exists('必应壁纸'):
+        pass
+    else:
+        os.mkdir('必应壁纸')
+        print('目录创建成功')
+    try:
+        for pic_name, pic_url in pics.items():
+            time.sleep(3)
+            res = requests.get(pic_url, headers=headers)
+            with open(f&quot;必应壁纸\\{pic_name}.jpg&quot;, mode=&quot;wb&quot;) as f:
+                f.write(res.content)
+            print(f&quot;{pic_name} 下载完成&quot;)
+    except Exception as e:
+        print(&quot;下载出错&quot;, e)
+
+def input_index():
+    while True:
+        sleep(0.1)
+        index = input(&quot;请输入要下载的页数:&quot;)
+        try:
+            if index == &quot;Q&quot;:
+                exit()
+            index = int(index)
+            return index
+        except ValueError:
+            print(&quot;请输入数字, 或输入Q退出!&quot;)
+
+def main():
+    index = input_index()
+    i = 1
+    while i &lt;= index:
+        print(f&quot;当前第{i}页,共需要下载{index}页&quot;)
+        pics = get_index(&quot;1920x1080&quot;, i)
+        download_pic(pics)
+        i += 1
+    print(&quot;下载完成,将在3秒后关闭...&quot;)
+    sleep(1)
+    print(&quot;2&quot;)
+    sleep(1)
+    print(&quot;1&quot;)
+    sleep(1)
+    print(&quot;0&quot;)
+
+if __name__ == '__main__':
+    main()
+</code></pre>
+<!--多线程版
+
+```
+import  re
+import os
+import requests
+from time import sleep
+from concurrent.futures import ThreadPoolExecutor
+headers = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) "
+                   "Gecko/20100101 Firefox/64.0")
+}
+
+def get_index(resolution, index=1):
+    url = f"https://bing.ioliu.cn/ranking?p={index}"
+    res = requests.get(url, headers=headers)
+    urls = re.findall('pic=(.*?)\\.jpg', res.text)
+    _old_resolution = urls[1].split("_")[-1]
+    return {url.split("/")[-1].replace(_old_resolution, resolution): url.replace(_old_resolution, resolution) + ".jpg"
+            for url in urls}
+
+def download_pic(pics):
+    if os.path.exists('必应壁纸'):
+        pass
+    else:
+        os.mkdir('必应壁纸')
+        print('目录创建成功')
+    try:
+        for pic_name, pic_url in pics.items():
+            res = requests.get(pic_url, headers=headers)
+            with open(f"必应壁纸\\{pic_name}.jpg", mode="wb") as f:
+                f.write(res.content)
+            print(f"{pic_name} 下载完成")
+    except Exception as e:
+        print("下载出错", e)
+
+def input_index():
+    while True:
+        sleep(0.1)
+        index = input("请输入要下载的页数:")
+        try:
+            if index == "Q":
+                exit()
+            index = int(index)
+            return index
+        except ValueError:
+            print("请输入数字, 或输入Q退出!")
+
+def main():
+    index = input_index()
+    i = 1
+    while i <= index:
+        print(f"当前第{i}页,共需要下载{index}页")
+        pics = get_index("1920x1080", i)
+        download_pic(pics)
+        i += 1
+    print("下载完成,将在3秒后关闭...")
+    sleep(1)
+    print("2")
+    sleep(1)
+    print("1")
+    sleep(1)
+    print("0")
+
+if __name__ == '__main__':
+
+    # 使用线程池提高爬取速度
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        main()
+``` -->
+<p>记得安装python要弄环境变量<br>
+使用方法</p>
+<div class="tvcontainer">
+<iframe class="tv" src="//player.bilibili.com/player.html?aid=670532151&bvid=BV1Sa4y1W7tz&cid=263098656&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<p><a href="https://github.com/cxl2020MC/pan">弄了一个bat文件可以自动安装库有些代码可能多了</a><br>
+<a href="https://blog.csdn.net/qq_34514415/article/details/80201543">python安装方法看安装python部分</a><br>
+<a href="https://cxl2020mc.github.io/cxlblogxz.github.io/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%89%88.exe">多线程版下载地址</a><br>
+<a href="https://cxl2020mc.github.io/cxlblogxz.github.io/%E6%99%AE%E9%80%9A%E7%89%88.exe">普通版下载地址</a><br>
+<a href="https://cxl2020mc.github.io/cxlblogxz.github.io/%E9%98%B2%E5%B0%81ip1.exe">防封ip版下载地址</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[每月手机壁纸]]></title>
+        <id>https://www.cxl2020mc.top/post/mei-yue-shou-ji-bi-zhi/</id>
+        <link href="https://www.cxl2020mc.top/post/mei-yue-shou-ji-bi-zhi/">
+        </link>
+        <updated>2020-11-22T09:39:10.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="请看评论区">请看评论区！！！</h1>
+<p>所有壁纸来源： https://bing.ioliu.cn/</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[每月背景]]></title>
+        <id>https://www.cxl2020mc.top/post/mei-zhou-bei-jing/</id>
+        <link href="https://www.cxl2020mc.top/post/mei-zhou-bei-jing/">
+        </link>
+        <updated>2020-11-21T09:02:26.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210502194132.gif" alt="" loading="lazy"></figure>
+<h1 id="下载地址1"><a href="https://github.com/cxl2020MC/image.github.io/archive/main.zip">下载地址1</a>,<a href="https://gitee.com/cxl2020/image.github.io/repository/archive/main.zip">下载加速地址</a></h1>
+<blockquote>
+<p>😀我可以改文章内容但是太复杂了一个一个的加太慢了🖊</p>
+</blockquote>
+<p>所有壁纸来源： https://bing.ioliu.cn/<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504204217.gif" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210502193304.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210502193444.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210502193601.png" alt="" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210502193630.png" alt="" loading="lazy"></p>
+<p><a href="https://imgchr.com/album/0RScq">2号更新慢</a><br>
+<a href="https://cxl2020mc.github.io/post/bi-ying-bi-zhi-xia-zai-dai-ma/">写的代码下载器</a><br>
+<a href="https://cxl2020mc.github.io/post/mei-yue-shou-ji-bi-zhi/">每月手机壁纸</a></p>
+<details>
+<summary>这个可以用来做动态壁纸</summary>
+<iframe style='width: 600px;height: 338px' frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=ff61c7aa08a16b0661b74ba87202e471_f'></iframe>
+<!-- <iframe class="tv" frameborder='no' allowfullscreen mozallowfullscreen webkitallowfullscreen src='http://go.plvideo.cn/front/video/preview?vid=ff61c7aa08a16b0661b74ba87202e471_f'></iframe> -->
+<!-- <video src="https://file-cxl2020mc.vercel.app/%E7%9B%B8%E5%86%8C%20(2).mp4" height="338" width="600" autoplay loop muted controls>
+    <p>你的浏览器不支持video标签</p>
+</video> -->
+<!-- dplayer -->
+<div id="dplayer"></div>
+<!-- <script src="https://cxl2020mc.vercel.app/tp/js/DPlayer.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js"></script>
+<!-- 视频 -->
+<script>
+const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    screenshot: true,
+    autoplay:true,
+    video: {
+        quality: [
+            {
+                name: '免费节点',
+                     url: 'https://file-cxl2020mc.herokuapp.com/OneDrive/%E7%9B%B8%E5%86%8C.mp4',
+            },
+            {
+                name: '免费节点2',
+                url: 'https://7.dusays.com/2021/05/09/d08526a56912a.mp4',
+            },
+        ],
+        defaultQuality: 1,
+    },
+});
+</script>
+<!-- https://file-cxl2020mc.vercel.app/%E7%9B%B8%E5%86%8C%20(2).mp4 -->
+<p><a href="https://gitee.com/cxl2020/cxl2020-image/raw/master/img/20210203193812.mp4">下载地址</a></p>
+<p><a href="/post/wo-de-shi-jie-guang-zhui-ban-guan-fang-yan-shi">mc光追地址</a></p>
+</details>
+<p><a href="/post/bi-ying-bi-zhi-xia-zai-dai-ma/">必应壁纸下载代码</a><br>
+<a href="/post/hd-chao-gao-qing-bi-ying-bi-zhi-xia-zai-dai-ma/">HD超高清必应壁纸下载代码</a></p>
+<p><span id="hitokoto">: )正在加载....</span></p>
+<!-- 新 API 方法， 十分简洁 -->
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>]]></content>
+    </entry>
+</feed>

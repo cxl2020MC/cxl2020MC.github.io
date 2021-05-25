@@ -1,0 +1,116 @@
+<script type="text/javascript">
+var sPop = null;
+var postSubmited = false;
+function ctlent(obj) {
+if (navigator.userAgent.indexOf('MSIE') > 0) {
+  if (obj.keyCode == 9) {
+    obj.returnValue = false;
+    var sel = document.selection.createRange();
+    sel.text = '/t';
+    sel.select();
+  }
+}
+  if(postSubmited == false && (obj.ctrlKey && obj.keyCode == 13) || (obj.altKey && obj.keyCode == 83)) {
+    var Input = document.getElementsByName('input')[0];
+    if(Input.pmsubmit) {
+      postSubmited = true;
+      Input.pmsubmit.disabled = true;
+      Input.submit();
+    } else if(validate(Input)) {
+      postSubmited = true;
+      if(Input.topicsubmit) Input.topicsubmit.disabled = true;
+      if(Input.replysubmit) Input.replysubmit.disabled = true;
+      if(Input.editsubmit) Input.editsubmit.disabled = true;
+      Input.submit();
+    }
+  }
+}
+function checkall(form, prefix) {
+  for(var i = 0; i < form.elements.length; i++) {
+    var e = form.elements[i];
+    if(e.name != 'chkall' && (!prefix || (prefix && e.name.match(prefix)))) {
+      e.checked = form.chkall.checked;
+    }
+  }
+}
+function findobj(n, d) {
+  var p,i,x; if(!d) d=document;
+  if((p=n.indexOf("?"))>0 && parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document;
+    n=n.substring(0,p);
+  }
+  if(!(x=d[n])&&d.all) x=d.all[n];
+  for(i=0;!x && i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x && d.layers&&i>d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  return x;
+}
+function copyCode(obj) {
+  var rng = document.body.createTextRange();
+  rng.moveToElementText(obj);
+  rng.scrollIntoView();
+  rng.select();
+  rng.execCommand("Copy");
+  rng.collapse(false);
+}
+function runCode(obj) {
+  var winname = window.open('', "_blank", '');
+  winname.document.open('text/html', 'replace');
+  winname.document.writeln(obj.value);
+  winname.document.close();
+}
+function saveCode(obj) {
+  var winname = window.open('', '_blank', 'top=10000');
+  winname.document.open('text/html', 'replace');
+  winname.document.writeln(obj.value);
+  winname.document.execCommand('saveas','','code.htm');
+  winname.close();
+}
+function cleanBR() {
+  var area = document.getElementsByTagName('TEXTAREA');
+  for (var i=0; i<area.length; i++) {
+    area[i].value = area[i].value.replace(/<br //>/ig, '');
+    area[i].value = area[i].value.replace(/(/xA0/x20){4}/ig, '/t');
+    area[i].value = area[i].value.replace(//xA0/x20/xA0/ig, ' ');
+    area[i].value = area[i].value.replace(//xA0/xA0/ig, ' ');
+  }
+}
+function dzconfirm(theURL, ConfirmMsg) {
+  if (confirm( ConfirmMsg ))  {
+    window.location.href=theURL;
+  } else {
+    return;
+  }
+}
+window.onload = cleanBR;
+</script>
+<style type="text/css">
+<!--
+.style1 {
+  color: #FFFFFF;
+  font-size: 9pt;
+}
+input,textarea {
+  margin: 0px;
+  padding: 0px;
+  font-family:Verdana;
+  font-size:12px;
+}
+-->
+</style>
+<body οnkeydοwn="if(event.altKey&&event.keyCode=='82') form1.r.click();if(event.altKey&&event.keyCode=='67') form1.c.click();if(event.altKey&&event.keyCode=='83') form1.s.click();if(event.altKey&&event.keyCode=='81') form1.q.click()">
+<form name="form1">
+<p>
+<textarea id="testcode0" rows="13" cols="102"></textarea>
+</p>
+<p class="style1"><br>
+<input type="button" value="运行代码(ALT+R)" name="r" οnclick="runCode(testcode0)">
+&nbsp;
+<input type="button" value="复制代码(ALT+C)" name="c" οnclick="copyCode(testcode0)">
+&nbsp;
+<input type="button" value="另存代码(ALT+S)" name="s" οnclick="saveCode(testcode0)">&nbsp;
+<input type="submit" value="清除代码(ALT+Q)" name="q">
+&nbsp;
+<p class="style1">提示：你可以先修改部分代码再运行</p>
+</p>
+</form>
+</body> 
