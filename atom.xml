@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.cxl2020mc.top</id>
     <title>陈鑫磊的博客</title>
-    <updated>2021-05-30T04:17:55.195Z</updated>
+    <updated>2021-05-30T04:21:43.013Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.cxl2020mc.top"/>
     <link rel="self" href="https://www.cxl2020mc.top/atom.xml"/>
@@ -102,19 +102,6 @@ URL填<code>https://raw.fastgit.org/521xueweihan/GitHub520/main/hosts</code>或<
 <img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210504183223.gif" alt="" loading="lazy"><br>
 努力编辑中。。。。。</li>
 </ol>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[网站镜像地址]]></title>
-        <id>https://www.cxl2020mc.top/post/wang-zhan-jing-xiang-di-zhi/</id>
-        <link href="https://www.cxl2020mc.top/post/wang-zhan-jing-xiang-di-zhi/">
-        </link>
-        <updated>2021-03-27T12:25:55.000Z</updated>
-        <content type="html"><![CDATA[<p>为了预防数据丢失，本站使用镜像（只能用于rss订阅）（站挂掉后，css会挂，会很乱）</p>
-<!-- [https://cxl2020mc.herokuapp.com](https://file-cxl2020mc.herokuapp.com) -->
-<p><a href="https://cxl2020mc.github.io">https://cxl2020mc.github.io</a><br>
-<a href="https://cxl2020mc.pages.dev">https://cxl2020mc.pages.dev</a><br>
-<a href="https://cxl2020mc.netlify.app/">https://cxl2020mc.netlify.app</a></p>
 ]]></content>
     </entry>
     <entry>
@@ -359,8 +346,8 @@ CNAME暂时不写,除非你有域名</p>
 - [x] 内容
 </code></pre>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7648683"><label class="task-list-item-label" for="task-item-7648683"> 内容</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9738938"><label class="task-list-item-label" for="task-item-9738938"> 内容</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5107977"><label class="task-list-item-label" for="task-item-5107977"> 内容</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1082362"><label class="task-list-item-label" for="task-item-1082362"> 内容</label></li>
 </ul>
 <h4 id="列表嵌套">列表嵌套</h4>
 <p>上一级和下一级之间敲三个空格即可</p>
