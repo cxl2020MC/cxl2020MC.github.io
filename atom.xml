@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.cxl2020mc.top</id>
     <title>陈鑫磊的博客</title>
-    <updated>2021-05-31T12:14:18.125Z</updated>
+    <updated>2021-05-31T12:17:44.041Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.cxl2020mc.top"/>
     <link rel="self" href="https://www.cxl2020mc.top/atom.xml"/>
@@ -346,8 +346,8 @@ CNAME暂时不写,除非你有域名</p>
 - [x] 内容
 </code></pre>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8013842"><label class="task-list-item-label" for="task-item-8013842"> 内容</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8557862"><label class="task-list-item-label" for="task-item-8557862"> 内容</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3222500"><label class="task-list-item-label" for="task-item-3222500"> 内容</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-1613113"><label class="task-list-item-label" for="task-item-1613113"> 内容</label></li>
 </ul>
 <h4 id="列表嵌套">列表嵌套</h4>
 <p>上一级和下一级之间敲三个空格即可</p>
@@ -760,20 +760,22 @@ const dp = new DPlayer({
     },
 });
 </script>
-[cos播放地址](https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/%E5%A4%A9%E6%B0%94%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.mp4)
-[7bu播放地址](https://7.dusays.com/2021/05/09/29813678d42ab.mp4)
-### 获取apikey
-先去[qmsg官网](https://qmsg.zendee.cn/me.html)获取key
-加这个qq：2323885379然后在[qmsg官网](https://qmsg.zendee.cn/me.html)选中消息推送服务，在点击key复制他
-![1](https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195821.png)
-![2](https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195917.png)
-### 编辑配置文件
-打开配置文件.txt
-第1行全清空粘贴刚刚复制的key
-第2行全清空输入你所在的精确到区的地址（正常的直接单独写区就行了，有些要加上具体地址）
-第3行写上要发送的QQ号，在去[qmsg官网](https://qmsg.zendee.cn/me.html)点击QQ号，输入你的QQ号保存。
-第4行写上整数（1和2）v2.0更新（用于切换一言api）
-> 注：api序号为1的api可能在最近下线
+<p><a href="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/%E5%A4%A9%E6%B0%94%E5%8A%A9%E6%89%8B%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95.mp4">cos播放地址</a><br>
+<a href="https://7.dusays.com/2021/05/09/29813678d42ab.mp4">7bu播放地址</a></p>
+<h3 id="获取apikey">获取apikey</h3>
+<p>先去<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>获取key<br>
+加这个qq：2323885379然后在<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>选中消息推送服务，在点击key复制他<br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195821.png" alt="1" loading="lazy"><br>
+<img src="https://cxl2020mc-1304820025.cos.ap-nanjing.myqcloud.com/file/20210503195917.png" alt="2" loading="lazy"></p>
+<h3 id="编辑配置文件">编辑配置文件</h3>
+<p>打开配置文件.txt<br>
+第1行全清空粘贴刚刚复制的key<br>
+第2行全清空输入你所在的精确到区的地址（正常的直接单独写区就行了，有些要加上具体地址）<br>
+第3行写上要发送的QQ号，在去<a href="https://qmsg.zendee.cn/me.html">qmsg官网</a>点击QQ号，输入你的QQ号保存。<br>
+第4行写上整数（1和2）v2.0更新（用于切换一言api）</p>
+<blockquote>
+<p>注：api序号为1的api可能在最近下线</p>
+</blockquote>
 <p>第5行写上是否打开公告功能（y和Y和yes为打开，别的都是关）<br>
 第6行写上是否打开“半”自动更新功能（y和Y和yes为打开，别的都是关）</p>
 <!-- <span class="cxl-text" data-text='["欢迎使用天气助手(weather-helper)"]'>&nbsp;</span> -->
